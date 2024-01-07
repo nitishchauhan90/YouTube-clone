@@ -1,0 +1,42 @@
+.recommendedVideos{
+    flex: 0.84;
+    background-color: #f9f9f9;
+    /* padding: 40px 20px; */
+    padding-bottom: 0;
+}
+.videoCard{
+    margin-bottom: 40px;
+    width: 270px;
+}
+.thumbnail{
+    height: 140px;
+    width: 250px;
+}
+.recomended_videos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommendedVideos > h1{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+.videocard_info{
+    display: flex;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+.videoCard_text{
+    margin-left: 15px;
+}
+.videoCard_text > h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.videoCard_text > p {
+    font-size: 14px;
+    color: gray;
+}
+.videoCard_avatar{
+    height: 30px;
+    width: 30px;
+}

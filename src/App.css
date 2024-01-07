@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "YouTube Sans";
+}
+@font-face {
+  font-family:"YouTube Sans" ;
+  src: url(../public/fonts/youtube-sans-cufonfonts/YouTubeSansDarkRegular.otf);
+}
+.app_page{
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}

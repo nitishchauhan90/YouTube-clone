@@ -1,0 +1,35 @@
+.sidebarrow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+    margin-left: 20px;
+    padding: 6px;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+}
+.side-head{
+    flex: 1;
+    font-size: 14px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.sidebar{
+    flex: 0.16;
+}
+hr{
+    margin-bottom: 14px;
+}
+.sidebarrow:hover{
+    background-color: lightgrey;
+}
+.sidebarrow.selected {
+    background-color: lightgrey;
+}
+.sidebarrow.selected >.side-head {
+    font-weight: 600;
+}
+.sidebarrow.selected:hover {
+    background-color: rgb(190, 189, 189);
+}
